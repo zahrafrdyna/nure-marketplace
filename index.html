@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>market place, product card</h1>
+    <nav>
+        <a href="product">product</a>
+        <a>kontak</a>
+        <a id="keranjang">keranjang (<span id="cart-cont">0</span>)</a>
+    </nav>
+    </header>
+    <main>
+        <div class="product-grid" id="product">
+
+            <div class="product-card">
+                <img src="product0.jpg" alt="product image">
+                <h3>LIGHSTIK ENHYPEN</h3>
+                <p class="price">$23.00</p>
+                <div class="qty-steper">
+                    <button type="button" class="qty-btn btn-min">-</button>
+                    <input type="text" value="1" class="qty-value" readonly/>
+                    <button type="button" class="qty-btn btn-plus">+</button>
+                </div>
+                <button class="btn-beli" data-nama="LIGHSTIK ENHYPEN" data-harga="$23.00">chekout now!</button>
+            </div>
+             <div class="product-card">
+                <img src="product2.jpg" alt="product image">
+                <h3>LIGHSTIK TOMORROW X TOGETHER</h3>
+                <p class="price">$38.00</p>
+                   <div class="qty-steper">
+                    <button type="button" class="qty-btn btn-min">-</button>
+                    <input type="text" value="2" class="qty-value" readonly/>
+                    <button type="button" class="qty-btn btn-plus">+</button>
+                </div>
+                <button class="btn-beli">chekout now!</button>
+            </div>
+             <div class="product-card">
+                <img src="product3.jpg" alt="product image">
+                <h3>LIGHSTIK TWS</h3>
+                <p class="price">$25.00</p>
+                   <div class="qty-steper">
+                    <button type="button" class="qty-btn btn-min">-</button>
+                    <input type="text" value="3" class="qty-value" readonly/>
+                    <button type="button" class="qty-btn btn-plus">+</button>
+                </div>
+                <button class="btn-beli">chekout now!</button>
+            </div>
+             <div class="product-card">
+                <img src="product4.jpg" alt="product image">
+                <h3>LIGHSTIK STRAYKIDS</h3>
+                <p class="price">$41.00</p>
+                   <div class="qty-steper">
+                    <button type="button" class="qty-btn btn-min">-</button>
+                    <input type="text" value="4" class="qty-value" readonly/>
+                    <button type="button" class="qty-btn btn-plus">+</button>
+                </div>
+                <button class="btn-beli">chekout now!</button>
+            </div>
+             <div class="product-card">
+                <img src="product5.jpg" alt="product image">
+                <h3>LIGHSTIK SEVENTEEN</h3>
+                <p class="price">$57.00</p>
+                   <div class="qty-steper">
+                    <button type="button" class="qty-btn btn-min">-</button>
+                    <input type="text" value="5" class="qty-value" readonly/>
+                    <button type="button" class="qty-btn btn-plus">+</button>
+                </div>
+                <button class="btn-beli">chekout now!</button>
+            </div>
+              <div class="product-card">
+                <img src="product7.avif" alt="product image">
+                <h3>LIGHSTIK NMIXX</h3>
+                <p class="price">$24.00</p>
+                   <div class="qty-steper">
+                    <button type="button" class="qty-btn btn-min">-</button>
+                    <input type="text" value="7" class="qty-value" readonly/>
+                    <button type="button" class="qty-btn btn-plus">+</button>
+                </div>
+                <button class="btn-beli">chekout now!</button>
+            </div>
+              <div class="product-card">
+                <img src="product6.jpg" alt="product image">
+                <h3>LIGHSTIK IU</h3>
+                <p class="price">$31.50</p>
+                   <div class="qty-steper">
+                    <button type="button" class="qty-btn btn-min">-</button>
+                    <input type="text" value="6" class="qty-value" readonly/>
+                    <button type="button" class="qty-btn btn-plus">+</button>
+                </div>
+                <button class="btn-beli">chekout now!</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2>contact us</h2>
+        <form class="kontak">
+            <label for="nama">name</label>
+            <input type="text" placeholder="enter your name">
+            <label for="email">email</label>
+            <input type="text" placeholder="enter your email">
+            <label for="pesan">order</label>
+        <textarea
+            type="text"
+            placeholder="write your message here...">
+        </textarea>
+        <button class="btn-kirim">sand message</button>
+        </form>
+        <p>copyright 2026 by nurell</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
